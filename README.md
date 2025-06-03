@@ -28,15 +28,16 @@ A desktop-based **Stock Portfolio Tracker** developed as part of my internship a
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/habibsk09/CodeAlpha_stock_portfolio_tracker.git
 cd CodeAlpha_stock_portfolio_tracker
-2. Install Required Packages
+
+### 2. Install Required Packages
 bash
 Copy
 Edit
 pip install yfinance pandas
-3. Run the App
+### 3. Run the App
 bash
 Copy
 Edit
@@ -46,19 +47,12 @@ bash
 Copy
 Edit
 📁 CodeAlpha_stock_portfolio_tracker
-├── main.py               # Main application script
-├── portfolio.csv         # Portfolio data file
-├── requirements.txt      # List of dependencies
-└── README.md             # Project documentation
-📈 Sample Output
-You can add screenshots in a screenshots/ folder and embed them here for visual reference.
+├── stock_portfolio_tracker.py       # Main application script
+├── portfolio.db                     # Portfolio data file
+└── README.md                        # Project documentation
 
-markdown
-Copy
-Edit
-![Dashboard](screenshots/dashboard.png)
 📌 Future Scope
-Add data visualization (charts/graphs)
+Add data visualisation (charts/graphs)
 
 Export portfolio reports as PDF/Excel
 
@@ -68,6 +62,6 @@ Database integration for persistent storage
 
 🙋‍♂️ About Me
 Habib Sk
-Python Developer Intern @ CodeAlpha
-🔗 GitHub Profile
+Python Intern @ CodeAlpha
+🔗 https://github.com/habibsk09
 Let me know if you'd like me to generate a `requirements.txt` or add a screenshot template.
