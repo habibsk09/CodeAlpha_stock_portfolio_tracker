@@ -6,10 +6,21 @@ A desktop-based **Stock Portfolio Tracker** developed as part of my internship a
 
 ## 🔧 Technologies Used
 
-- **Python**
-- **Tkinter** – for GUI
-- **yfinance** – for live stock price data
-- **pandas** – for data handling
+1. Programming Language
+Python – Core language used for all functionalities.
+
+2. Data Storage
+   
+- SQLite – A Lightweight relational database to store:
+
+- Stock holdings
+
+- Transaction history
+
+3. API Integration
+Alpha Vantage API – Fetches real-time stock prices using HTTP requests via the requests library.
+
+
 
 ---
 
@@ -36,12 +47,12 @@ cd CodeAlpha_stock_portfolio_tracker
 bash
 Copy
 Edit
-pip install yfinance pandas
+pip install pandas
 ### 3. Run the App
 bash
 Copy
 Edit
-python main.py
+python stock_poetfolio_tracker.py
 📂 Project Structure
 bash
 Copy
@@ -64,4 +75,5 @@ Database integration for persistent storage
 Habib Sk
 Python Intern @ CodeAlpha
 🔗 https://github.com/habibsk09
+---
 Let me know if you'd like me to generate a `requirements.txt` or add a screenshot template.
